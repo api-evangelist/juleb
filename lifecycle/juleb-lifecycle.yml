@@ -1,0 +1,14 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.juleb.com
+# Juleb publishes a live status page (status.juleb.com) that monitors the Juleb
+# platform and API. No public versioning policy, deprecation policy (RFC 8594
+# Sunset/Deprecation), or SLA document was found on juleb.com or docs.juleb.com
+# during this pass (docs.juleb.com is a published but currently thin Docusaurus
+# site; the /api-endpoints and /getting-started routes referenced in its sitemap
+# return the SPA 404 fallback in the current build). Absence recorded honestly.
+status_page: https://status.juleb.com
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []

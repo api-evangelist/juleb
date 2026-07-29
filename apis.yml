@@ -1,25 +1,86 @@
 aid: juleb
 name: Juleb
-description: Juleb is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Juleb is a Saudi Arabia-based pharma-tech and retail software company providing an
+  integrated cloud platform for the health, retail, and distribution sectors. Its suite
+  spans accounting and financial management, inventory and warehouse management, sales
+  force automation (SFA), point of sale (POS), Rx e-prescription, e-commerce, and DSCSA
+  regulatory compliance. Juleb connects to Saudi compliance systems (ZATCA/Fatoora, RSD,
+  GS1, Wasfaty), e-commerce channels (Salla, Shopify, HungerStation), payment providers
+  (Geidea, Alhamrani), and ERPs (Microsoft Dynamics). Founded by Yousuf Jamjoom and backed
+  by 500 Global, Juleb exposes a REST API (documented at docs.juleb.com) covering inventory,
+  point of sale, prescriptions, and partner/company resources.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://juleb.com/icons/icon-512x512.png
 url: https://raw.githubusercontent.com/api-evangelist/juleb/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
-x-tier: stub
+x-tier: profiled
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-apis: []
+- Health
+- Retail
+- Distribution
+- Pharmacy
+- Point of Sale
+- Inventory
+- E-Prescription
+- ERP
+- Saudi Arabia
+- Compliance
+apis:
+- name: Juleb API
+  description: >-
+    Juleb's REST API for the health/retail/distribution platform, documented at
+    docs.juleb.com. Documented resource surface spans inventory (batch, picking,
+    product, product-template), point of sale (config, order, payment-method,
+    pricelist, session), prescriptions (rx), and shared resources (company, partner).
+  humanURL: https://docs.juleb.com
+  baseURL: https://api.juleb.com
+  tags:
+  - API
+  - REST
+  properties:
+  - type: Documentation
+    url: https://docs.juleb.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/juleb-domain-security.yml
 - type: Website
   url: https://juleb.com
+- type: Documentation
+  url: https://docs.juleb.com
+- type: StatusPage
+  url: https://status.juleb.com
+- type: Lifecycle
+  url: lifecycle/juleb-lifecycle.yml
+- type: Blog
+  url: https://juleb.com/blog
+- type: LLMsTxt
+  url: llms/juleb-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
