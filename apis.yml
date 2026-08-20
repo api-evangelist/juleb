@@ -38,6 +38,18 @@ tags:
 - Retail
 - Distribution
 - Pharmacy
+- Point-of-Sale
+- Inventory
+- E-Prescription
+- ERP
+- Saudi Arabia
+- Compliance
+tags_raw:
+- Company
+- Health
+- Retail
+- Distribution
+- Pharmacy
 - Point of Sale
 - Inventory
 - E-Prescription
@@ -54,6 +66,8 @@ apis:
   humanURL: https://docs.juleb.com
   baseURL: https://api.juleb.com
   tags:
+  - REST
+  tags_raw:
   - API
   - REST
   properties:
