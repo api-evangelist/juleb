@@ -10,6 +10,17 @@ description: >-
   (Geidea, Alhamrani), and ERPs (Microsoft Dynamics). Founded by Yousuf Jamjoom and backed
   by 500 Global, Juleb exposes a REST API (documented at docs.juleb.com) covering inventory,
   point of sale, prescriptions, and partner/company resources.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
